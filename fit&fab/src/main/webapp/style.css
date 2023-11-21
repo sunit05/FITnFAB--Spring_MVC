@@ -1,0 +1,130 @@
+
+body, h1, ul {
+	margin: 0;
+	padding: 0;
+}
+	
+.h{
+	font-family: 'Arial', sans-serif;	
+	text-align: right;
+	font-size: 16px;
+}
+.a{
+	font-family: 'Arial', sans-serif;	
+	text-align: center;
+	color: rgb(0, 255, 255);
+	font-size: 46px;
+}
+body {
+	
+	font-family: 'Arial', sans-serif;	
+	background-color: #f5f5f5;
+	background-image: url("gym.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+header {
+	background-color: #ffffff;
+	color: white;
+	text-align: center;
+	opacity: 65%;
+}
+
+header h1 {
+	color: white;	
+	font-size: 36px;
+}
+
+nav {
+	background-color: #3b3b3b;
+	text-align: center;
+	opacity: 65%;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 20px;
+}
+
+a, a:link, a:visited {
+  color: #FFFAFA;
+  text-decoration: none;
+}
+
+.whiteText{
+	color: rgb(128, 0, 64);
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+/* 
+.login-container-for-table{
+
+} */
+
+.login-container {
+	text-align: center;
+	margin-top: 7%;
+}
+
+.logins{
+	padding: 10px 20px;
+	font-family: 'Arial', sans-serif;	
+}
+
+.login-button {
+	display: block;
+	padding: 10px 20px;
+	width: 190px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 15px;
+	transition: background-color 0.3s ease;
+	background-color: #ffffff;
+	opacity: 80%;
+	color: #241212;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	background-color: #3b3b3b;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 14px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	opacity: 65%;
+}
+
+.gym-logo {
+	width: 5%;
+}
+.created{
+	font-size: 10px;
+}
+input[type=text], input[type=password],input[type=number] {
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	opacity: 90%;
+	border-style: none;
+	font-size: 20px;
+}
